@@ -124,7 +124,7 @@ public:
           // allocate here
           is_free_[h][i] = 0;
           update_upwards(h, i);
-          return cur_start;
+          return addr;
         } else {
           // split and proceed towards the target address
           is_free_[h][i] = 0;
